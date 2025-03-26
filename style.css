@@ -104,13 +104,6 @@ footer {
     margin-top: 20px;
 }
 
-.hero {
-    background: linear-gradient(135deg, #3498db, #2c3e50); /* Resim yoksa gradient */
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-    margin-bottom: 30px;
-}
 
 .hero-content h2 {
     font-size: 2.5rem;

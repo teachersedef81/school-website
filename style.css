@@ -138,7 +138,7 @@ footer {
 
 .about-content {
     display: flex;
-    flex-direction: column; /* İçeriği dikey hizalar */
+    flex-direction: row; /* İçeriği dikey hizalar */
     justify-content: center; /* Yatay ortalama */
     align-items: center; /* Dikey ortalama */
     width: 100%;

@@ -50,7 +50,7 @@ nav ul li a.active, nav ul li a:hover {
 
 /* Hero Bölümü */
 .hero {
-    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    background: url('images/hero-bg.png') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;

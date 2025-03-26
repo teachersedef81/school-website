@@ -193,6 +193,15 @@ footer {
     resize: vertical;
 }
 
-.map {
-    margin-top: 30px;
-}
+.map-container {
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  iframe {
+    display: block; /* Bu satır önemli! */
+    width: 100%;
+  }

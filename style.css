@@ -205,42 +205,19 @@ footer {
     width: 100%;
   }
 
-  .table-container {
-    width: 80%;
-    margin: 20px auto;
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-}
-
-th {
-    background-color: cyan;
-    color: #333;
-    font-weight: bold;
-}
-
-td a {
-    text-decoration: none;
-    color: #0077cc;
-    font-weight: bold;
-}
-
-td a:hover {
-    color: #005599;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
+  <style>
+  /* Tablo stilleri */
+  table {
+      width: 50%; /* Tablo genişliği sayfanın %50'si kadar */
+      border-collapse: collapse;
+      margin: 20px auto; /* Tabloyu sayfanın ortasına alır */
+  }
+  th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+  }
+  th {
+      background-color: cyan; /* Sütun başlıkları cyan renkte */
+  }
+</style>

@@ -145,16 +145,18 @@ footer {
 
 .about-content {
     display: flex;
-    gap: 30px;
-    margin-top: 30px;
-    align-items: center;
+    justify-content: center; /* Yatay ortalama */
+    align-items: center; /* Dikey ortalama (gerekirse ayarlayabilirsin) */
+    width: 100%;
+    margin-top: 20px; /* Üstten biraz boşluk bırak */
 }
 
 .about-content img {
-    width: 25%;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 50%; /* Fotoğrafı büyütmek için */
+    max-width: 600px; /* Çok büyük olmaması için maksimum genişlik */
+    height: auto; /* Oranları korumak için */
 }
+
 
 /* İletişim Sayfası Stili */
 .contact-section {

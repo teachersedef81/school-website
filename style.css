@@ -205,19 +205,56 @@ footer {
     width: 100%;
   }
 
-  <style>
-  /* Tablo stilleri */
-  table {
-      width: 50%; /* Tablo genişliği sayfanın %50'si kadar */
-      border-collapse: collapse;
-      margin: 20px auto; /* Tabloyu sayfanın ortasına alır */
-  }
-  th, td {
-      border: 1px solid black;
-      padding: 10px;
-      text-align: center;
-  }
-  th {
-      background-color: cyan; /* Sütun başlıkları cyan renkte */
-  }
-</style>
+ /* Tablo genel stilleri */
+table {
+    width: 80%; /* Tablo genişliği */
+    max-width: 600px; /* Çok büyük olmaması için */
+    border-collapse: collapse;
+    margin: 20px auto; /* Ortalamak için */
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Tablo başlıkları */
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Sütun başlıkları rengi */
+th {
+    background-color: cyan;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Alternatif satır rengi */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Link stilleri */
+td a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #005599;
+}
+
+/* Genel sayfa uyumu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}

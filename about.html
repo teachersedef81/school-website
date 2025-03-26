@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hakkımızda</title>
+    <title>Okul Adı - Hakkımızda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Navigasyon (Ana Sayfa ile Aynı) -->
     <header>
-        <h1>Hakkımızda</h1>
         <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Okul Logosu">
+                <h1>Okul Adı</h1>
+            </div>
             <ul>
                 <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                <li><a href="egitim.html">Eğitim</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="about.html" class="active">Hakkımızda</a></li>
+                <li><a href="contact.html">İletişim</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="about-content">
-        <h2>Hakkımızda</h2>
-        <p>Okulumuz 1990 yılında kurulmuştur...</p>
+    <!-- Hakkımızda İçeriği -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Hakkımızda</h2>
+            <div class="about-content">
+                <img src="images/okul11.jpg" alt="Okul Binamız">
+                <div class="text">
+                    <h3>Vizyonumuz</h3>
+                    <p>Öğrencilerimize kaliteli eğitim sunarak geleceğe hazırlamak...</p>
+                    <h3>Tarihçe</h3>
+                    <p>1990 yılında kurulan okulumuz, bölgenin önde gelen eğitim kurumlarındandır.</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Footer (Ana Sayfa ile Aynı) -->
     <footer>
-        <p>&copy; 2023 Okulumuz. Tüm hakları saklıdır.</p>
+        <p>&copy; 2023 Okul Adı. Tüm hakları saklıdır.</p>
     </footer>
 </body>
 </html>

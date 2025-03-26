@@ -3,32 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletişim</title>
-    
+    <title>Düzce Hürriyet Ortaokulu - İletişim</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Navigasyon -->
     <header>
-        <h1>İletişim</h1>
         <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Düzce Hürriyet Ortaokulu Logosu">
+                <h1>Düzce Hürriyet Ortaokulu</h1>
+            </div>
             <ul>
                 <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                <li><a href="egitim.html">Eğitim</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="contact.html" class="active">İletişim</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>İletişim Bilgileri</h2>
-        <p>Adres: Okul Caddesi No: 123, Şehir, Ülke</p>
-        <p>Telefon: +90 123 456 78 90</p>
-        <p>E-posta: info@okulumuz.com</p>
+    <!-- İletişim Bilgileri -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>İletişim Bilgileri</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Adres</h3>
+                    <p>Hürriyet Mahallesi, Atatürk Bulvarı No:123, 81600 Düzce Merkez/Düzce</p>
+                    
+                    <h3><i class="fas fa-phone"></i> Telefon</h3>
+                    <p>0380 123 45 67</p>
+                    <p>0380 123 45 68 (Fax)</p>
+                    
+                    <h3><i class="fas fa-envelope"></i> E-posta</h3>
+                    <p>duzcehurriyetortaokulu@meb.k12.tr</p>
+                    
+                    <h3><i class="fas fa-clock"></i> Çalışma Saatleri</h3>
+                    <p>Pazartesi-Cuma: 08:30 - 17:30</p>
+                </div>
+
+                <!-- Harita -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.715061665044!2d31.15883731571549!3d40.83851177931646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409d9c4f8c8b8b1f%3A0x1a3b4e5f6d7e8f9!2sD%C3%BCzce%20H%C3%BCrriyet%20Ortaokulu!5e0!3m2!1str!2str!4v1620000000000!5m2!1str!2str" 
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Okulumuz. Tüm hakları saklıdır.</p>
+        <p>© 2023 Düzce Hürriyet Ortaokulu - Tüm hakları saklıdır.<br>
+           <small>MEB Kurumsal Kimlik Rehberine uygun olarak hazırlanmıştır.</small></p>
     </footer>
+
+    <!-- Font Awesome (iconlar için) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
+@media (max-width: 768px) {
+    .about-content, .contact-content {
+        flex-direction: column;
+    }
+    .about-content img {
+        width: 100%;
+    }
+}

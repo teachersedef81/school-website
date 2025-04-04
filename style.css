@@ -403,12 +403,17 @@ footer {
     color: #2c3e50;
     text-decoration: none;
   }
-
-  /* style.css dosyanıza ekleyin */
-.news-container,
-.news-content,
-.news-card,
-.news-card p,
-.news-card h3 {
-  text-align: left !important;
+  
+  /* Tüm sayfa içeriğini sola dayalı yapar */
+body, 
+section, 
+article, 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  text-align: left;
 }

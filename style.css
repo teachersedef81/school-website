@@ -391,8 +391,16 @@ footer {
     padding: 10px 0;
 }
 
-.news-container{
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    text-align: left;
-}
+.about-section {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .about-section a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2c3e50;
+    text-decoration: none;
+  }
+

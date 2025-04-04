@@ -403,17 +403,22 @@ footer {
     color: #2c3e50;
     text-decoration: none;
   }
+
+/* Haber kartları içeriğini sola dayalı yapar */
+.news-content {
+    text-align: left;
+    padding: 15px;
+  }
   
-  /* Tüm sayfa içeriğini sola dayalı yapar */
-body, 
-section, 
-article, 
-p, 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 {
-  text-align: left;
-}
+  /* Haber başlıklarını sola dayalı yapar */
+  .news-content h3 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  /* Haber açıklama metnini sola dayalı yapar */
+  .news-content p {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  

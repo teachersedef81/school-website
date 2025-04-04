@@ -94,12 +94,18 @@ nav ul li a:hover, .active {
 
 .btn {
     display: inline-block;
-    background: #3498db;
+    background-color: red;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
+    font-weight: bold;
     border-radius: 5px;
-    margin-top: 20px;
+    transition: 0.3;
+}
+
+.btn:hover{
+
+    background-color: darkred;
 }
 
 /* Özellik Kartları */

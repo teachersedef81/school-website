@@ -322,3 +322,12 @@ h2 {
 #contact-form button:hover {
     background: #005f73;
 }
+
+@media (max-width: 768px) {
+    .about-content, .contact-content {
+        flex-direction: column;
+    }
+    .about-content img {
+        width: 100%;
+    }
+}

@@ -151,21 +151,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.btn {
-    display: inline-block;
-    background: #e74c3c;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.btn:hover {
-    background: #c0392b;
-}
-
 /* Hakkımızda Sayfası Stili */
 .about-section {
     display: flex;

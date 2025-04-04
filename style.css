@@ -391,3 +391,8 @@ footer {
     padding: 10px 0;
 }
 
+.news-container{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: left;
+}

@@ -437,3 +437,81 @@ footer {
     margin-bottom: 15px;
   }
   
+  /* Sık Sorular sorular*/
+  /* sss-style.css */
+
+/* Sayfa ve akordiyon için temel stiller */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4; /* Sayfa arka plan rengi */
+}
+
+.sss-container {
+    max-width: 800px; /* İçerik genişliği */
+    margin: 20px auto; /* Ortala */
+    padding: 20px;
+    background-color: #fff; /* Konteyner arka planı */
+    border-radius: 8px; /* Köşe yuvarlaklığı */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Gölge */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Başlık rengi */
+    margin-bottom: 30px;
+}
+
+details {
+    background-color: #fff; /* Soru arka planı */
+    border: 1px solid #ddd; /* Kenarlık */
+    border-radius: 4px; /* Köşe yuvarlaklığı */
+    margin-bottom: 10px; /* Sorular arası boşluk */
+    transition: background-color 0.3s ease;
+}
+
+details[open] {
+    background-color: #f9f9f9; /* Açık soru arka planı */
+}
+
+summary {
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Varsayılan ikonu kaldır */
+    display: block; /* Tam genişlik */
+    position: relative; /* Ok ikonu için */
+    color: #0056b3; /* Soru metni rengi */
+}
+
+/* Özel açma/kapama oku */
+summary::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #0056b3;
+}
+
+details[open] summary::after {
+    content: '-';
+}
+
+summary::-webkit-details-marker {
+    display: none; /* Chrome/Safari varsayılan okunu gizle */
+}
+
+.answer {
+    padding: 0 15px 15px 15px; /* Cevap içeriği dolgusu */
+    border-top: 1px dashed #ddd; /* Soru ile cevap arasına çizgi */
+    margin-top: 10px;
+    color: #555; /* Cevap metni rengi */
+}
+
+/* Strong etiketleri için ek stil (isteğe bağlı) */
+.answer p strong {
+    color: #333; /* Vurgulanan metin rengi */
+}

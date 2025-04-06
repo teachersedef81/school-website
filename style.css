@@ -132,7 +132,7 @@ nav ul li a:hover, .active {
 }
 .button{
     display: inline-block;
-    background-color: red; /* Kırmızı arka plan */
+    background-color: darkcyan; /* Kırmızı arka plan */
     color: white; /* Beyaz yazı rengi */
     padding: 15px 30px; /* Buton iç boşlukları */
     text-decoration: none; /* Alt çizgiyi kaldır */
@@ -140,14 +140,8 @@ nav ul li a:hover, .active {
     font-weight: bold; /* Kalın yazı */
     text-align: center;
     border-radius: 5px; /* Hafif yuvarlatılmış köşeler */
-    border: 2px solid red; /* Dış çerçeve */
+    border: 2px solid darkcyan; /* Dış çerçeve */
     transition: background-color 0.3s ease-in-out, transform 0.2s;
-}
-
-.btn:hover {
-    background-color: darkred; /* Üzerine gelince koyu kırmızı */
-    border: 2px solid darkred;
-    transform: scale(1.05); /* Üzerine gelince hafif büyüsün */
 }
 
 /* Footer */

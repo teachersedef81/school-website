@@ -121,6 +121,12 @@ nav ul li a:hover, .active {
     margin: 50px auto;
     padding: 0 20px;
 }
+/* feature için */
+.feature content {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 .feature-card {
     background: #f9f9f9;
@@ -129,6 +135,12 @@ nav ul li a:hover, .active {
     padding: 20px;
     width: 30%;
     text-align: center;
+}
+/* feature  card için */
+.feature-card content {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 .button{
     display: inline-block;

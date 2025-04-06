@@ -132,7 +132,7 @@ nav ul li a:hover, .active {
 }
 .button{
     display: inline-block;
-    background-color: darkcyan; /* Kırmızı arka plan */
+    background-color: darkcyan; /* koyu  arka plan */
     color: white; /* Beyaz yazı rengi */
     padding: 15px 30px; /* Buton iç boşlukları */
     text-decoration: none; /* Alt çizgiyi kaldır */

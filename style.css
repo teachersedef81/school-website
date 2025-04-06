@@ -355,7 +355,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 768px) {
-    .about-content, .contact-content {
+    .about-content, .contact-content, index-content, .field-content {
         flex-direction: column;
     }
     .about-content img {

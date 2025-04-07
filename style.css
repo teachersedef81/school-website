@@ -144,7 +144,7 @@ nav ul li a:hover, .active {
 /* Buton */
 .feature-card .button {
     display: inline-block;
-    background-color: #004AAD;
+    background-color: darkcyan;
     color: white;
     text-decoration: none;
     padding: 0.7rem 1.2rem;

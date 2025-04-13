@@ -13,12 +13,12 @@ header {
     padding: 1rem 0;
 }
 
-n/* NAVBAR Genel Stilleri */
+/* NAVBAR*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004080; /* Menü arka planı */
+    background-color: #004080; /* Menü background */
     padding: 10px 20px;
 }
 
@@ -28,7 +28,7 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 50px; /* Logo boyutu */
+    height: 50px; /* Logo boyut */
     margin-right: 10px;
 }
 
@@ -114,7 +114,6 @@ nav ul li a:hover, .active {
 
 
 /* Özellik Kartları */
-/* Genel Feature Section Stili */
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -227,10 +226,10 @@ footer {
     width: 70%; /* Görseli büyüt */
     max-width: 800px; /* Maksimum genişlik */
     height: auto;
-    margin-bottom: 20px; /* Metinle arasına boşluk bırak */
+    margin-bottom: 20px; /* Metinle arasına boşluk */
 }
 
-/* İletişim Sayfası Stili */
+/* İletişim Sayfası stil*/
 
 
 .contact-section {
@@ -282,7 +281,7 @@ footer {
     width: 100%;
   }
 
- /* Tablo genel stilleri */
+ /* Tablo genel stiller */
 table {
     width: 80%; /* Tablo genişliği */
     max-width: 600px; /* Çok büyük olmaması için */
@@ -337,7 +336,7 @@ h2 {
 }
 
 #contact-form {
-    max-width: 600px; /* Formun genişliğini belirler */
+    max-width: 600px; /* Formun genişliği */
     margin: 20px auto; /* Ortalar ve üst-alt boşluk bırakır */
     padding: 20px;
     background: #f9f9f9;
@@ -405,7 +404,7 @@ body {
 }
 /* Ana sayfa stiline uyumlu hale getir */
 body {
-    background-color: #f4f4f4; /* Açık gri arka plan (ana sayfaya benzer) */
+    background-color: #f4f4f4; /* Açık gri arka plan */
     color: #333; /* Koyu gri metin rengi */
     font-family: Arial, sans-serif; /* Yazı tipi */
     margin: 0;
@@ -460,19 +459,19 @@ footer {
     text-decoration: none;
   }
 
-/* Haber kartları içeriğini sola dayalı*/
+/* Haber kartları içeriği sola dayalı*/
 .news-content {
     text-align: left;
     padding: 15px;
   }
   
-  /* Haber başlıklarını sola dayalı */
+  /* Haber başlıkları sola dayalı */
   .news-content h3 {
     text-align: left;
     margin-bottom: 10px;
   }
 
-  /* Haber açıklama metnini sola dayalı */
+  /* Haber açıklama metni sola dayalı */
   .news-content p {
     text-align: left;
     margin-bottom: 15px;

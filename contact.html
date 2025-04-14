@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Düzce Hürriyet Ortaokulu - İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<body>
+    <!-- Navigasyon -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Düzce Hürriyet Ortaokulu Logosu">
+                <h1>Düzce Hürriyet Ortaokulu</h1>
+            </div>
+            <ul>
+                <li><a href="index.html" >Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="ogretmen-kadromuz.html">Öğretmen Kadromuz</a></li>
+                <li><a href="news.html">Okul Müfredatımız</a></li>
+                <li><a href="contact.html"class="active">İletişim</a></li>
+                <li><a href="sss.html">SSS</a></li>
+                <li><a href="field.html">Öğrenme Alanlarımız</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- İletişim Bilgileri -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>İletişim Bilgileri</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Adres</h3>
+                    <p>BAHÇELİEVLER MAH. 31. SK. HÜRRİYET ORTA OKULU BLOK NO 2 İÇ KAPI NO 1 MERKEZ / DÜZCE
+
+                    </p>
+                    
+                    <h3><i class="fas fa-phone"></i> Telefon</h3>
+                    <p>0380 123 45 67</p>
+                    <p>0380 123 45 68 (Fax)</p>
+                    
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:duzcehurriyetortaokulu@meb.k12.tr" class="email-link">
+                      duzcehurriyetortaokulu@meb.k12.tr
+                    </a>
+                  </p>
+
+                    
+                    <h3><i class="fas fa-clock"></i> Çalışma Saatleri</h3>
+                    <p>Pazartesi-Cuma: 08:30 - 17:30</p>
+                </div>
+
+                <!-- Harita -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.4013521610605!2d31.225403274934838!3d40.863065528355484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409d0af97c1a04a5%3A0xf1758c03b512e4e7!2sH%C3%BCrriyet%20Ortaokulu!5e0!3m2!1str!2str!4v1743009206029!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+                      width="100%" 
+                      height="400" 
+                      style="border:0;" 
+                      allowfullscreen="" 
+                      loading="lazy"
+                      title="Düzce Hürriyet Ortaokulu Harita"
+                    ></iframe>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <form id="contact-form" action="tesekkur.html" method="get">
+        <h2>İLETİŞİM FORMU</h2>
+        
+        <label for="name">İsim</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">E-mail Adres</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Konu</label>
+        <input type="text" id="subject" name="subject" required>
+        
+        <label for="message">İçerik</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit" class="btn-submit">Gönder</button>
+        <button type="reset" class="btn-reset">Temizle</button>
+    </form>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Düzce Hürriyet Ortaokulu - Tüm hakları saklıdır.<br>
+           <small>MEB Kurumsal Kimlik Rehberine uygun olarak hazırlanmıştır.</small></p>
+    </footer>
+
+    <!-- Font Awesome (iconlar için) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

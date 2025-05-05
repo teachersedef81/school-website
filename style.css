@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004080; /* Menü background */
+    background-color: #004080;
     padding: 10px 20px;
 }
 
@@ -28,7 +28,7 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 50px; /* Logo boyut */
+    height: 50px;
     margin-right: 10px;
 }
 
@@ -94,22 +94,22 @@ nav ul li a:hover, .active {
 
 .btn {
     display: inline-block;
-    background-color: red; /* Kırmızı arka plan */
-    color: white; /* Beyaz yazı rengi */
-    padding: 15px 30px; /* Buton iç boşlukları */
-    text-decoration: none; /* Alt çizgiyi kaldır */
-    font-size: 14px; /* Yazı boyutu */
-    font-weight: bold; /* Kalın yazı */
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
     text-align: center;
-    border-radius: 5px; /* Hafif yuvarlatılmış köşeler */
-    border: 2px solid red; /* Dış çerçeve */
+    border-radius: 5px;
+    border: 2px solid red;
     transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
 .btn:hover {
-    background-color: darkred; /* Üzerine gelince koyu kırmızı */
+    background-color: darkred;
     border: 2px solid darkred;
-    transform: scale(1.05); /* Üzerine gelince hafif büyüsün */
+    transform: scale(1.05);
 }
 
 
@@ -172,17 +172,18 @@ nav ul li a:hover, .active {
 
 .button{
     display: inline-block;
-    background-color: darkcyan; /* koyu  arka plan */
-    color: white; /* Beyaz yazı rengi */
-    padding: 15px 30px; /* Buton iç boşlukları */
-    text-decoration: none; /* Alt çizgiyi kaldır */
-    font-size: 18px; /* Yazı boyutu */
-    font-weight: bold; /* Kalın yazı */
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
-    border-radius: 5px; /* Hafif yuvarlatılmış köşeler */
-    border: 2px solid darkcyan; /* Dış çerçeve */
+    border-radius: 5px;
+    border: 2px solid darkcyan;
     transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
+
 
 /* Footer */
 footer {
@@ -216,18 +217,19 @@ footer {
 
 .about-content {
     display: flex;
-    flex-direction: column; /* İçeriği dikey hizalar */
-    align-items: center; /* Ortalar */
-    text-align: center; /* Metni de ortalar */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
 }
 
 .about-content img {
-    width: 70%; /* Görseli büyüt */
-    max-width: 800px; /* Maksimum genişlik */
+    width: 70%;
+    max-width: 800px;
     height: auto;
-    margin-bottom: 20px; /* Metinle arasına boşluk */
+    margin-bottom: 20px;
 }
+
 
 /* İletişim Sayfası stil*/
 
@@ -277,16 +279,16 @@ footer {
   }
   
   iframe {
-    display: block; /* Bu satır önemli! */
+    display: block;
     width: 100%;
   }
 
  /* Tablo genel stiller */
 table {
-    width: 80%; /* Tablo genişliği */
-    max-width: 600px; /* Çok büyük olmaması için */
+    width: 80%;
+    max-width: 600px;
     border-collapse: collapse;
-    margin: 20px auto; /* Ortalamak için */
+    margin: 20px auto;
     background: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -336,8 +338,8 @@ h2 {
 }
 
 #contact-form {
-    max-width: 600px; /* Formun genişliği */
-    margin: 20px auto; /* Ortalar ve üst-alt boşluk bırakır */
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
     background: #f9f9f9;
     border-radius: 10px;
@@ -389,7 +391,7 @@ h2 {
     }
 }
 
-/* Hakkımızda */ 
+/* Hakkımızda */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
@@ -404,16 +406,16 @@ body {
 }
 /* Ana sayfa stiline uyumlu hale getir */
 body {
-    background-color: #f4f4f4; /* Açık gri arka plan */
-    color: #333; /* Koyu gri metin rengi */
-    font-family: Arial, sans-serif; /* Yazı tipi */
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 /* Header kısmı */
 header {
-    background-color: #003366; /* Mavi başlık */
+    background-color: #003366;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -423,12 +425,12 @@ header {
 #content {
     padding: 30px;
     margin: 0 auto;
-    max-width: 1200px; /* İçeriği ortala */
+    max-width: 1200px;
 }
 
 /* Ders başlıkları ve metinler */
 h2 {
-    color: #003366; /* Mavi başlıklar */
+    color: #003366;
     font-size: 24px;
 }
 
@@ -440,7 +442,7 @@ p {
 
 /* Footer kısmı */
 footer {
-    background-color: #003366; /* Mavi footer */
+    background-color: #003366;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -485,44 +487,44 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #f4f4f4; /* Sayfa arka plan rengi */
+    background-color: #f4f4f4;
 }
 
 .sss-container {
-    max-width: 800px; /* İçerik genişliği */
-    margin: 20px auto; /* Ortala */
-    padding: 20px;
-    background-color: #fff; /* Konteyner arka planı */
-    border-radius: 8px; /* Köşe yuvarlaklığı */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Gölge */
+    max-width: 800px;
+    margin: 20px auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h1 {
     text-align: center;
-    color:white; /* Başlık rengi */
+    color:white;
     margin-bottom: 30px;
 }
 
 details {
-    background-color: #fff; /* Soru arka planı */
-    border: 1px solid #ddd; /* Kenarlık */
-    border-radius: 4px; /* Köşe yuvarlaklığı */
-    margin-bottom: 10px; /* Sorular arası boşluk */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
     transition: background-color 0.3s ease;
 }
 
 details[open] {
-    background-color: #f9f9f9; /* Açık soru arka planı */
+    background-color: #f9f9f9;
 }
 
 summary {
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
-    list-style: none; /* Varsayılan ikonu kaldır */
-    display: block; /* Tam genişlik */
-    position: relative; /* Ok ikonu için */
-    color: #0056b3; /* Soru metni rengi */
+    list-style: none;
+    display: block;
+    position: relative;
+    color: #0056b3;
 }
 
 /* Özel açma/kapama */
@@ -541,19 +543,19 @@ details[open] summary::after {
 }
 
 summary::-webkit-details-marker {
-    display: none; /* Chrome/Safari varsayılan okunu gizle */
+    display: none;
 }
 
 .answer {
-    padding: 0 15px 15px 15px; /* Cevap içeriği dolgusu */
-    border-top: 1px dashed #ddd; /* Soru ile cevap arasına çizgi */
+    padding: 0 15px 15px 15px;
+    border-top: 1px dashed #ddd;
     margin-top: 10px;
-    color: #555; /* Cevap metni rengi */
+    color: #555;
 }
 
 /* Strong etiketleri için */
 .answer p strong {
-    color: #333; /* Vurgulanan metin rengi */
+    color: #333;
 }
 /* field için */
 .field-content img {
@@ -568,4 +570,162 @@ summary::-webkit-details-marker {
     height: auto;
     display: block;
 }
+.library-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.category-filter {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.book-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.book-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.book-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.book-author {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.book-category {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 800px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.book-details {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book-details img {
+    max-width: 200px;
+    border-radius: 4px;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-description {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.availability {
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.available {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.unavailable {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+@media (max-width: 600px) {
+    .book-grid {
+        grid-template-columns: 1fr !important;
+    }
+}

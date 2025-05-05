@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okul Kütüphanesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Okul Kütüphanesi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="ogretmen-kadromuz.html">Öğretmen Kadromuz</a></li>
+                <li><a href="news.html">Okul Müfredatımız</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="sss.html">SSS</a></li>
+                <li><a href="field.html">Öğrenme Alanlarımız</a></li>
+                <li><a href="library.html" class="active" aria-current="page">Kütüphane</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Kitap adı veya yazar ara...">
+            <select id="categoryFilter" class="category-filter">
+                <option value="all">Tüm Kategoriler</option>
+                <option value="Roman">Roman</option>
+                <option value="Bilim">Bilim</option>
+                <option value="Tarih">Tarih</option>
+                <option value="Matematik">Matematik</option>
+                <option value="Edebiyat">Edebiyat</option>
+            </select>
+            <button id="searchButton">Ara</button>
+        </div>
+        
+            <div id="bookGrid" class="book-grid">
+                </div>
+        </div>
+    </main>
+
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="bookDetails" class="book-details">
+                </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <input type="checkbox" id="availableOnly"> Sadece mevcut kitaplar
+
+    <footer>
+        <p>&copy; 2025 Düzce Hürriyet Ortaokulu - Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>

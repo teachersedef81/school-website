@@ -4,7 +4,7 @@ const books = [
         title: "İnce Memed",
         author: "Yaşar Kemal",
         category: "Roman",
-        cover: "/images/incememed.jpeg",
+        cover: "images/incememed.jpeg",
         description: "İnce Memed, Yaşar Kemal'in ilk kez 1955'te yayımlanan ve yazarın başyapıtı kabul edilen romandır. Çukurova'da geçen olaylar, ağalık düzenini ve köylülerin çektikleri sıkıntıları anlatır.",
         available: true
     },
@@ -13,7 +13,7 @@ const books = [
         title: "Kürk Mantolu Madonna",
         author: "Sabahattin Ali",
         category: "Roman",
-        cover: "/images/kürk.jpeg",
+        cover: "images/kürk.jpeg",
         description: "Kürk Mantolu Madonna, Sabahattin Ali'nin 1943 yılında yayımladığı, aşk ve yalnızlık temalarını işleyen bir romandır.",
         available: true
     },
@@ -22,7 +22,7 @@ const books = [
         title: "Cosmos",
         author: "Carl Sagan",
         category: "Bilim",
-        cover: "/images/cosmos.jpg",
+        cover: "images/cosmos.jpg",
         description: "Cosmos, Carl Sagan tarafından yazılan ve evrenin doğasını, bilim tarihini ve insanlığın evrendeki yerini anlatan popüler bilim kitabıdır.",
         available: false
     },
@@ -31,7 +31,7 @@ const books = [
         title: "Nutuk",
         author: "Mustafa Kemal Atatürk",
         category: "Tarih",
-        cover: "/images/nutuk.jpg",
+        cover: "images/nutuk.jpg",
         description: "Nutuk, Mustafa Kemal Atatürk'ün 15-20 Ekim 1927 tarihlerinde gerçekleştirilen Cumhuriyet Halk Partisi İkinci Kurultayı'nda okuduğu konuşma metnidir.",
         available: true
     },
@@ -40,7 +40,7 @@ const books = [
         title: "Matematiğin Temelleri",
         author: "Ian Steward, David Tall",
         category: "Matematik",
-        cover: "/images/matematik.jpeg",
+        cover: "images/matematik.jpeg",
         description: "Matematik alanında temel kavramları ve teknikleri açıklayan, öğrenciler için hazırlanmış bir kaynak kitap.",
         available: true
     },
@@ -49,7 +49,7 @@ const books = [
         title: "Çalıkuşu",
         author: "Reşat Nuri Güntekin",
         category: "Roman",
-        cover: "/images/calikusu.jpg",
+        cover: "images/calikusu.jpg",
         description: "Çalıkuşu, Reşat Nuri Güntekin'in 1922 yılında yazılmış, Anadolu'da öğretmenlik yapan Feride'nin hikayesini anlatan romanıdır.",
         available: false
     },
@@ -58,7 +58,7 @@ const books = [
         title: "Sefiller",
         author: "Victor Hugo",
         category: "Edebiyat",
-        cover: "/images/sefiller.jpg",
+        cover: "images/sefiller.jpg",
         description: "Sefiller, Victor Hugo'nun 1862 yılında yayımlanmış, toplumsal adaletsizlik, yoksulluk ve kurtuluş temalarını işleyen romanıdır.",
         available: true
     },
@@ -67,7 +67,7 @@ const books = [
         title: "İstanbul Hatırası",
         author: "Ahmet Ümit",
         category: "Roman",
-        cover: "/images/istanbul.jpeg",
+        cover: "images/istanbul.jpeg",
         description: "İstanbul Hatırası, Ahmet Ümit'in İstanbul'un tarihi ve kültürel özelliklerini polisiye bir kurguyla anlatan romanıdır.",
         available: true
     },
@@ -76,7 +76,7 @@ const books = [
         title: "Osmanlı İmparatorluğu Tarihi",
         author: "Von Hammer",
         category: "Tarih",
-        cover: "/images/osmanli.jpeg",
+        cover: "images/osmanli.jpeg",
         description: "Osmanlı İmparatorluğu'nun kuruluşundan yıkılışına kadar olan dönemin detaylı bir incelemesi.",
         available: true
     },
@@ -85,7 +85,7 @@ const books = [
         title: "Olasılıksız",
         author: "Adam Fawer",
         category: "Bilim",
-        cover: "/images/olasiliksiz.jpeg",
+        cover: "images/olasiliksiz.jpeg",
         description: "Olasılıksız, olasılık, şans, kader ve matematik arasındaki ilişkiyi kurgusal bir hikaye etrafında anlatan bir romandır.",
         available: false
     }

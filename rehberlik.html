@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Düzce Hürriyet Ortaokulu Rehberlik Servisinin öğrenci, veli ve öğretmenlere sunduğu kaynaklara buradan ulaşabilirsiniz.">
+    <title>Düzce Hürriyet Ortaokulu - Rehberlik Köşesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Üst Navigasyon -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Okul Logosu">
+                <h1>Düzce Hürriyet Ortaokulu</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="ogretmen-kadromuz.html">Öğretmen Kadromuz</a></li>
+                <li><a href="news.html">Okul Müfredatımız</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="sss.html">SSS</a></li>
+                <li><a href="field.html">Öğrenme Alanlarımız</a></li>
+                <li><a href="library.html">Kütüphane</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="rehberlik.html" class="active">Rehberlik Köşesi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Rehberlik Köşesi İçeriği -->
+    <div class="rehberlik-container">
+        <div class="rehberlik-intro">
+            <h2>Rehberlik Köşesi</h2>
+            <p>Öğrencilerimizin akademik, kişisel ve sosyal gelişimlerini desteklemek amacıyla hazırladığımız rehberlik köşemize hoş geldiniz. Burada öğrencilerimiz, velilerimiz ve öğretmenlerimiz için faydalı bilgiler ve kaynaklar bulabilirsiniz.</p>
+        </div>
+
+        <!-- Tab Menü -->
+        <div class="rehberlik-tabs">
+            <button class="tab-button active" onclick="openTab(event, 'ogrenci')">Öğrenciler İçin</button>
+            <button class="tab-button" onclick="openTab(event, 'veli')">Veliler İçin</button>
+            <button class="tab-button" onclick="openTab(event, 'sinav')">Sınav Hazırlık</button>
+            <button class="tab-button" onclick="openTab(event, 'motivasyon')">Motivasyon</button>
+            <button class="tab-button" onclick="openTab(event, 'iletisim')">İletişim</button>
+        </div>
+
+        <!-- Öğrenciler İçin Tab İçeriği -->
+        <div id="ogrenci" class="tab-content active">
+            <h3>Öğrenciler İçin Rehberlik</h3>
+            
+            <div class="rehberlik-card">
+                <h3>Etkili Ders Çalışma Teknikleri</h3>
+                <p>Ders çalışmak birçok öğrencinin zorlandığı bir konudur. İşte size etkili ders çalışma için bazı ipuçları:</p>
+                <ul>
+                    <li>Çalışma ortamınızı düzenleyin ve dikkat dağıtıcı unsurlardan arındırın.</li>
+                    <li>Kendinize günlük ve haftalık çalışma planları hazırlayın.</li>
+                    <li>Pomodoro tekniği kullanın: 25 dakika çalışın, 5 dakika ara verin.</li>
+                    <li>Öğrendiklerinizi başkalarına anlatın veya özetleyin.</li>
+                    <li>Not tutma, kavram haritaları ve kartlar gibi aktif öğrenme teknikleri kullanın.</li>
+                </ul>
+            </div>
+
+            <div class="rehberlik-card">
+                <h3>Akran İlişkileri ve İletişim</h3>
+                <p>Arkadaşlarınızla sağlıklı ilişkiler kurmanız kişisel gelişiminiz için çok önemlidir:</p>
+                <ul>
+                    <li>Aktif dinleme becerilerinizi geliştirin.</li>
+                    <li>Empati kurmaya çalışın ve başkalarının duygularını anlamaya gayret edin.</li>
+                    <li>Çatışmaları sakin bir şekilde çözmeye çalışın.</li>
+                    <li>Kendinizi ifade etmekten çekinmeyin.</li>
+                    <li>Olumlu arkadaşlık ilişkileri kurun ve olumsuz davranışlardan uzak durun.</li>
+                </ul>
+            </div>
+            
+            <div class="rehberlik-card">
+                <h3>Zaman Yönetimi</h3>
+                <p>Zamanınızı etkili kullanmak başarının anahtarıdır:</p>
+                <ul>
+                    <li>Önceliklerinizi belirleyin.</li>
+                    <li>To-do listeleri yapın ve tamamladıkça işaretleyin.</li>
+                    <li>Erteleme alışkanlığından kurtulun.</li>
+                    <li>Çalışma ve dinlenme zamanlarını dengeli planlayın.</li>
+                    <li>Dijital cihazlarda geçirdiğiniz zamanı kontrol edin.</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Stres Yönetimi</button>
+            <div class="panel">
+                <p>Stres hayatımızın bir parçasıdır ancak yönetilmesi gerekir. Stresi azaltmak için:</p>
+                <ul>
+                    <li>Derin nefes alma ve gevşeme egzersizleri yapın.</li>
+                    <li>Düzenli fiziksel aktivite yapın.</li>
+                    <li>Hobilerinize zaman ayırın.</li>
+                    <li>Yeterli uyku almaya özen gösterin.</li>
+                    <li>Gerektiğinde yardım istemekten çekinmeyin.</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Kariyer Planlama</button>
+            <div class="panel">
+                <p>Geleceğinizi düşünmeye erken başlamak size avantaj sağlar:</p>
+                <ul>
+                    <li>İlgi alanlarınızı ve yeteneklerinizi keşfedin.</li>
+                    <li>Farklı meslekler hakkında araştırma yapın.</li>
+                    <li>Rol modeller bulun ve onların kariyer yollarını inceleyin.</li>
+                    <li>Kısa ve uzun vadeli hedefler belirleyin.</li>
+                    <li>Okul rehberlik servisinden kariyer danışmanlığı alın.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Veliler İçin Tab İçeriği -->
+        <div id="veli" class="tab-content">
+            <h3>Veliler İçin Rehberlik</h3>
+            
+            <div class="rehberlik-card">
+                <h3>Çocuklarınızın Eğitimini Desteklemek</h3>
+                <p>Çocuğunuzun eğitim hayatında başarılı olması için şunları yapabilirsiniz:</p>
+                <ul>
+                    <li>Evde düzenli çalışma ortamı oluşturun.</li>
+                    <li>Ödevlerini kontrol edin ve gerekirse yardımcı olun.</li>
+                    <li>Okul etkinliklerine ve veli toplantılarına katılın.</li>
+                    <li>Öğretmenlerle düzenli iletişim kurun.</li>
+                    <li>Çocuğunuzun ilgi alanlarını ve yeteneklerini keşfetmesine yardımcı olun.</li>
+                </ul>
+            </div>
+
+            <div class="rehberlik-card">
+                <h3>Ergenlik Döneminde İletişim</h3>
+                <p>Ergenlik dönemindeki çocuklarla iletişim kurmanın püf noktaları:</p>
+                <ul>
+                    <li>Yargılamadan dinleyin.</li>
+                    <li>Empati kurun ve duygularını anlamaya çalışın.</li>
+                    <li>Açık ve dürüst iletişim kanalları oluşturun.</li>
+                    <li>Özel alanlarına saygı gösterin.</li>
+                    <li>Kuralları birlikte belirleyin ve tutarlı olun.</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Dijital Dünyada Ebeveynlik</button>
+            <div class="panel">
+                <p>Teknoloji çağında çocuklarınızı korumak için:</p>
+                <ul>
+                    <li>Çocuğunuzun internet kullanımını takip edin.</li>
+                    <li>Ekran süresini sınırlayın ve dijital molalar verin.</li>
+                    <li>İnternet güvenliği konusunda bilinçlendirin.</li>
+                    <li>Sosyal medya kullanımı hakkında konuşun.</li>
+                    <li>Ebeveyn kontrol araçlarından yararlanın.</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Sınav Kaygısıyla Baş Etme</button>
+            <div class="panel">
+                <p>Çocuğunuzun sınav kaygısını azaltmak için:</p>
+                <ul>
+                    <li>Gerçekçi beklentiler oluşturun.</li>
+                    <li>Başarısızlık durumunda destekleyici olun.</li>
+                    <li>Dengeli beslenme ve yeterli uyku konusunda teşvik edin.</li>
+                    <li>Kaygıyı azaltıcı teknikler öğretin.</li>
+                    <li>Aşırı baskı yapmaktan kaçının.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sınav Hazırlık Tab İçeriği -->
+        <div id="sinav" class="tab-content">
+            <h3>Sınav Hazırlık Rehberi</h3>
+            
+            <div class="rehberlik-card">
+                <h3>LGS Hazırlık Stratejileri</h3>
+                <p>LGS sınavına hazırlanırken dikkat edilmesi gerekenler:</p>
+                <ul>
+                    <li>Düzenli çalışma planı oluşturun.</li>
+                    <li>Konu eksiklerinizi belirleyin ve öncelik sırasına koyun.</li>
+                    <li>Bol bol soru çözün ve çözdüğünüz soruları analiz edin.</li>
+                    <li>Deneme sınavlarına katılın ve performansınızı değerlendirin.</li>
+                    <li>Zaman yönetiminizi geliştirin.</li>
+                </ul>
+            </div>
+
+            <div class="rehberlik-card">
+                <h3>Verimli Tekrar Teknikleri</h3>
+                <p>Öğrendiklerinizi kalıcı hale getirmek için tekrar stratejileri:</p>
+                <ul>
+                    <li>Ebbinghaus unutma eğrisine göre aralıklı tekrar yapın.</li>
+                    <li>Öğrendiklerinizi farklı kaynaklardan pekiştirin.</li>
+                    <li>Konuları birbiriyle ilişkilendirin.</li>
+                    <li>Özet çıkarın ve kavram haritaları oluşturun.</li>
+                    <li>Öğrendiklerinizi birilerine anlatın.</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Soru Çözme Teknikleri</button>
+            <div class="panel">
+                <p>Soruları daha hızlı ve doğru çözmek için:</p>
+                <ul>
+                    <li>Soru tiplerini tanıyın ve her tip için stratejiler geliştirin.</li>
+                    <li>Soruyu dikkatlice okuyun ve ne istendiğini anlayın.</li>
+                    <li>Eleyerek çözme tekniğini kullanın.</li>
+                    <li>Zaman tuzağı sorularda takılıp kalmayın.</li>
+                    <li>Yaptığınız hataları not edin ve tekrarlamamaya çalışın.</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Sınav Günü Stratejileri</button>
+            <div class="panel">
+                <p>Sınav gününde başarılı olmak için:</p>
+                <ul>
+                    <li>Sınavdan bir gün önce hafif bir tekrar yapın ve erken uyuyun.</li>
+                    <li>Sınav sabahı kahvaltınızı mutlaka yapın.</li>
+                    <li>Sınava gitmeden önce tüm gerekli malzemeleri hazırlayın.</li>
+                    <li>Sınav salonuna erken gidin ve rahat bir pozisyon alın.</li>
+                    <li>Derin nefes alma tekniklerini kullanarak sakinleşin.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Motivasyon Tab İçeriği -->
+        <div id="motivasyon" class="tab-content">
+            <h3>Motivasyon Köşesi</h3>
+            
+            <div class="rehberlik-card">
+                <h3>Motivasyonu Yüksek Tutma</h3>
+                <p>Çalışma motivasyonunuzu artırmak için öneriler:</p>
+                <ul>
+                    <li>Kısa vadeli ve ulaşılabilir hedefler belirleyin.</li>
+                    <li>Kendinizi ödüllendirin.</li>
+                    <li>Başarı günlüğü tutun.</li>
+                    <li>İlham veren kişileri takip edin.</li>
+                    <li>Pozitif düşünmeye çalışın.</li>
+                </ul>
+            </div>
+
+            <div class="rehberlik-card">
+                <h3>Başarı Hikayeleri</h3>
+                <p>Okulumuzdaki başarılı öğrencilerin deneyimleri:</p>
+                <blockquote>
+                    "Düzenli çalışma planı ve hedef odaklı yaklaşım benim başarıya ulaşmamdaki en önemli etkenlerdi. Her gün küçük adımlar atarak büyük hedeflere ulaşabileceğinizi unutmayın." - Ayşe K. (LGS Türkiye 152.si)
+                </blockquote>
+                <blockquote>
+                    "Başarısızlıktan korkmayın, her hata bir öğrenme fırsatıdır. Deneme sınavlarında yaptığım hataları analiz ederek eksiklerimi gördüm ve bu beni başarıya taşıdı." - Mehmet Y. (Fen Olimpiyatları İl Birincisi)
+                </blockquote>
+            </div>
+
+            <button class="accordion">Motive Edici Alıntılar</button>
+            <div class="panel">
+                <p>Zor zamanlarda size güç verecek bazı alıntılar:</p>
+                <blockquote>"Eğitim, bilmediğinizi fark ettiğiniz zamanlarda başlar." - Confucius</blockquote>
+                <blockquote>"Hayatta başarılı olmak isteyen kimse, umudunu kaybetmemelidir." - Mustafa Kemal Atatürk</blockquote>
+                <blockquote>"Başarı yolunda karşınıza çıkan engeller, hedefinize ne kadar değer verdiğinizi ölçen testlerdir." - Napoleon Hill</blockquote>
+                <blockquote>"Bugün yapabileceğini yarına bırakma." - Benjamin Franklin</blockquote>
+            </div>
+
+            <button class="accordion">Pozitif Düşünme Teknikleri</button>
+            <div class="panel">
+                <p>Pozitif düşünmeyi geliştirmek için:</p>
+                <ul>
+                    <li>Günlük minnet günlüğü tutun.</li>
+                    <li>Olumlu kendine konuşma alışkanlığı geliştirin.</li>
+                    <li>Başarısızlıkları öğrenme fırsatı olarak görün.</li>
+                    <li>Kendinize karşı nazik olun ve mükemmeliyetçilikten kaçının.</li>
+                    <li>Günde en az bir kez gülümsemeyi hedefleyin.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- İletişim Tab İçeriği -->
+        <div id="iletisim" class="tab-content">
+            <h3>Rehberlik Servisi İletişim</h3>
+            
+            <div class="rehberlik-card">
+                <h3>Rehberlik Servisi Çalışma Saatleri</h3>
+                <p>Rehberlik öğretmenlerimizle görüşmek için aşağıdaki saatlerde okulumuzu ziyaret edebilirsiniz:</p>
+                <ul>
+                    <li>Pazartesi - Cuma: 09:00 - 16:00</li>
+                    <li>Öğle arası: 12:00 - 13:00</li>
+                </ul>
+                <p><strong>Not:</strong> Randevu almanız tavsiye edilir.</p>
+            </div>
+
+            <div class="rehberlik-contact">
+                <h3>Danışmanlık Randevusu Alın</h3>
+                <p>Rehberlik öğretmenlerimizle görüşmek için aşağıdaki formu doldurabilirsiniz.</p>
+                
+                <form class="contact-form">
+                    <label for="name">Ad Soyad:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" id="phone" name="phone">
+                    
+                    <label for="category">Danışmanlık Konusu:</label>
+                    <select id="category" name="category">
+                        <option value="akademik">Akademik Danışmanlık</option>
+                        <option value="kisisel">Kişisel-Sosyal Gelişim</option>
+                        <option value="kariyer">Kariyer Danışmanlığı</option>
+                        <option value="aile">Aile Danışmanlığı</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                    
+                    <label for="message">Mesajınız:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Randevu Talebi Gönder</button>
+                </form>
+            </div>
+
+            <div class="rehberlik-resources">
+                <h3>Faydalı Kaynaklar</h3>
+                <p>Rehberlik konuları hakkında daha fazla bilgi edinmek için önerilen kaynaklar:</p>
+                
+                <ul class="resource-list">
+                    <li><a href="https://rehberlik.meb.gov.tr/" target="_blank">MEB Rehberlik Hizmetleri</a></li>
+                    <li><a href="https://orgm.meb.gov.tr/" target="_blank">Özel Eğitim ve Rehberlik Hizmetleri Genel Müdürlüğü</a></li>
+                    <li><a href="https://www.duzceram.meb.k12.tr/" target="_blank">Düzce Rehberlik ve Araştırma Merkezi</a></li>
+                    <li><a href="#" target="_blank">Etkili Ders Çalışma Teknikleri (PDF)</a></li>
+                    <li><a href="#" target="_blank">Sınav Kaygısıyla Başa Çıkma Yöntemleri (PDF)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Düzce Hürriyet Ortaokulu - Tüm hakları saklıdır.<br>
+           <small>MEB Kurumsal Kimlik Rehberine uygun olarak hazırlanmıştır.</small></p>
+    </footer>
+
+</body>
+</html>

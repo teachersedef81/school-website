@@ -278,3 +278,44 @@ window.addEventListener('click', (event) => {
                 }
             });
         });
+
+            // Tab Fonksiyonu
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            
+            // Tüm tab içeriklerini gizle
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active");
+            }
+            
+            // Tüm tab butonlarından active sınıfını kaldır
+            tablinks = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            
+            // Seçilen tab'i göster ve butonunu active yap
+            document.getElementById(tabName).style.display = "block";
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.className += " active";
+        }
+
+        // Akordeon Fonksiyonu
+        var accordions = document.getElementsByClassName("accordion");
+        
+        for (var i = 0; i < accordions.length; i++) {
+            accordions[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+        

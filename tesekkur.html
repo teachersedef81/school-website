@@ -28,7 +28,22 @@
                 </ul>
             </nav>
         </header>
+<script>
+           var veriler = new URLSearchParams(window.location.search);
+        var isim = veriler.get('isim');
+        var Konu = veriler.get('konu');
+        var email = veriler.get('email');
+    
+        document.write("<p>Kaydınız onaylanmıştır, tebrikler!</p>");
+    
+        document.write("<table border='1' cellpadding='8' cellspacing='0'>");
+        document.write("<tr><th> </th><th> </th></tr>");
+        document.write("<tr><td>Adınız</td><td>" + isim + "</td></tr>");
+        document.write("<tr><td>Konu</td><td>" + Konu + "</td></tr>");
+        document.write("<tr><td>Email</td><td>" + email + "</td></tr>");
+        document.write("</table>");
 
+</script>
 
     <h2>Mesajınız Gönderildi!</h2>
     <p>İlginiz için teşekkür ederiz. En kısa sürede size geri dönüş yapacağız.</p>

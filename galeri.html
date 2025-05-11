@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Düzce Hürriyet Ortaokulu, Sedef Pehlivanın web sitesi, Milli Eğitim Bakanlığı">
+    <title>Düzce Hürriyet Ortaokulu - Galeri</title>
+    <link rel="stylesheet" href="style.css">
+
+  
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Üst Navigasyon -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Okul Logosu">
+                <h1>Düzce Hürriyet Ortaokulu</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="ogretmen-kadromuz.html">Öğretmen Kadromuz</a></li>
+                <li><a href="news.html">Okul Müfredatımız</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="sss.html">SSS</a></li>
+                <li><a href="field.html">Öğrenme Alanlarımız</a></li>
+                <li><a href="library.html">Kütüphane</a></li>
+                <li><a href="galeri.html" class="active">Galeri</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Galeri Bölümü -->
+    <div class="gallery-container">
+        <div class="gallery-intro">
+            <h2>Okul Galerimiz</h2>
+            <p>Okulumuzda gerçekleşen etkinlikleri, özel günleri ve başarılarımızı görüntüleyin. Düzce Hürriyet Ortaokulu'nda hayat her zaman renkli ve hareketli!</p>
+        </div>
+
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">Tümü</button>
+            <button class="filter-btn" data-filter="etkinlik">Etkinlikler</button>
+            <button class="filter-btn" data-filter="gezi">Geziler</button>
+            <button class="filter-btn" data-filter="spor">Spor</button>
+            <button class="filter-btn" data-filter="proje">Projeler</button>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Aşağıdaki yapıyı örnek alarak kendi resimlerinizi ekleyebilirsiniz -->
+            
+            <!-- Etkinlik Resimleri -->
+            <div class="gallery-item" data-category="etkinlik">
+                <img src="images/beste10.jpg" alt="SANSEV Hazırlıkları">
+                <div class="gallery-caption">İstanbul Uluslararası Çoksesli Korolar Festivali Hazırlıkları</div>
+            </div>
+            
+            <div class="gallery-item" data-category="etkinlik">
+                <img src="images/beste11.jpg" alt="SANSEV Hazırlıkları">
+                <div class="gallery-caption">İstanbul Uluslararası Çoksesli Korolar Festivali Hazırlıkları</div>
+            </div>
+            
+            <div class="gallery-item" data-category="etkinlik">
+                <img src="images/beste12.jpg" alt="SANSEV Hazırlıkları">
+                <div class="gallery-caption">İstanbul Uluslararası Çoksesli Korolar Festivali Hazırlıkları</div>
+            </div>
+            
+            <div class="gallery-item" data-category="etkinlik">
+                <img src="images/beste19.jpg" alt="SANSEV Hazırlıkları">
+                <div class="gallery-caption">İstanbul Uluslararası Çoksesli Korolar Festivali Hazırlıkları</div>
+            </div>
+            
+            <div class="gallery-item" data-category="proje">
+                <img src="images/biyoloji10.jpg" alt="Biyoloji Lab">
+                <div class="gallery-caption">Fen Edebiyat Fakültesi Bİyoloji Bölümü Laboratuvar gezisi</div>
+            </div>
+            
+            <div class="gallery-item" data-category="proje">
+                <img src="images/biyoloji7.jpg" alt="Biyoloji Lab">
+                <div class="gallery-caption">Fen Edebiyat Fakültesi Bİyoloji Bölümü Laboratuvar gezisi</div>
+            </div>
+            
+            <div class="gallery-item" data-category="proje">
+                <img src="images/botanics1.jpg" alt="SHORE Projesi">
+                <div class="gallery-caption">SHORE Mavi Ufuklar Projesi DÜ Botanik Bahçesi Gezisi</div>
+            </div>
+            
+            <div class="gallery-item" data-category="proje">
+                <img src="images/seminar1.jpg" alt="SHORE Projesi">
+                <div class="gallery-caption">Prof. Dr. Zeki Demir Semineri</div>
+            </div>
+            
+            <div class="gallery-item" data-category="etkinlik">
+                <img src="images/interview1.jpg" alt="Röportaj">
+                <div class="gallery-caption">Düzce Çevre Şehircilik ve İl Müdürlüğü Röportajı</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img src="" alt="Büyük Görüntü">
+            <div class="lightbox-caption"></div>
+            <div class="lightbox-nav">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Düzce Hürriyet Ortaokulu - Tüm hakları saklıdır.<br>
+           <small>MEB Kurumsal Kimlik Rehberine uygun olarak hazırlanmıştır.</small></p>
+    </footer>
+
+</body>
+</html>

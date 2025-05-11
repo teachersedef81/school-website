@@ -174,3 +174,107 @@ window.addEventListener('click', (event) => {
         modal.style.display = "none";
     }
 });
+
+
+        // Galeri Filtreleme İşlevi
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            // Filtreleme işlemi
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Aktif butonun stilini değiştir
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Lightbox İşlevleri
+            const lightbox = document.querySelector('.lightbox');
+            const lightboxImg = lightbox.querySelector('img');
+            const lightboxCaption = lightbox.querySelector('.lightbox-caption');
+            const closeBtn = lightbox.querySelector('.close-lightbox');
+            const prevBtn = lightbox.querySelector('.prev');
+            const nextBtn = lightbox.querySelector('.next');
+            
+            let currentIndex = 0;
+            const visibleItems = () => Array.from(galleryItems).filter(item => item.style.display !== 'none');
+            
+            // Görsele tıklama işlemi
+            galleryItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const img = this.querySelector('img');
+                    const caption = this.querySelector('.gallery-caption').textContent;
+                    
+                    lightboxImg.src = img.src;
+                    lightboxCaption.textContent = caption;
+                    lightbox.style.display = 'block';
+                    
+                    // Geçerli öğenin indeksini belirle
+                    const items = visibleItems();
+                    currentIndex = items.indexOf(this);
+                });
+            });
+            
+            // Lightbox kapatma
+            closeBtn.addEventListener('click', () => {
+                lightbox.style.display = 'none';
+            });
+            
+            // Dışarı tıklama ile kapatma
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    lightbox.style.display = 'none';
+                }
+            });
+            
+            // Önceki görsel
+            prevBtn.addEventListener('click', () => {
+                const items = visibleItems();
+                currentIndex = (currentIndex - 1 + items.length) % items.length;
+                
+                const item = items[currentIndex];
+                const img = item.querySelector('img');
+                const caption = item.querySelector('.gallery-caption').textContent;
+                
+                lightboxImg.src = img.src;
+                lightboxCaption.textContent = caption;
+            });
+            
+            // Sonraki görsel
+            nextBtn.addEventListener('click', () => {
+                const items = visibleItems();
+                currentIndex = (currentIndex + 1) % items.length;
+                
+                const item = items[currentIndex];
+                const img = item.querySelector('img');
+                const caption = item.querySelector('.gallery-caption').textContent;
+                
+                lightboxImg.src = img.src;
+                lightboxCaption.textContent = caption;
+            });
+            
+            // Klavye ile gezinme
+            document.addEventListener('keydown', function(e) {
+                if (lightbox.style.display === 'block') {
+                    if (e.key === 'ArrowLeft') {
+                        prevBtn.click();
+                    } else if (e.key === 'ArrowRight') {
+                        nextBtn.click();
+                    } else if (e.key === 'Escape') {
+                        lightbox.style.display = 'none';
+                    }
+                }
+            });
+        });
